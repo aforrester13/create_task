@@ -1,0 +1,160 @@
+.title {
+font-family: "Courier New", Courier, monospace;
+font-size: 35px;
+letter-spacing: 0.6px;
+word-spacing: 6px;
+color: #A4FFA4;
+font-weight: 400;
+text-decoration: none;
+font-style: italic;
+font-variant: small-caps;
+text-transform: capitalize;
+text-align: center;
+}
+
+.divider {
+  color: #A4FFA4;
+}
+
+.user_input {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.input {
+  margin: auto;
+  width: 50%;
+  padding: 2px;
+  border-width: 3px;
+  border-radius: 25px;
+  font-family: monospace;
+  font-size: 25px;
+  background-color: lightslategrey;
+  border-color: black;
+}
+
+.button_add {
+  border-radius: 25px;
+  border-style: ridge;
+  border-width: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin: auto;
+  width: 5%;
+  padding: 2px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  word-spacing: 6px;
+  color: #A4FFA4;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  background-color: lightslategrey;
+  border-color: black;
+}
+table {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 22px;
+    border-spacing: 10px;
+    border-radius: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    background: #f6e6b4;
+    background: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%);
+    background: -webkit-linear-gradient(top, #f6e6b4 0%,#ed9017 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 );
+}
+
+ td {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  word-spacing: 6px;
+  color: #A4FFA4;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+.to_do {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid;
+  background-color: black;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.to_do:hover {
+  background-color: lightgrey;
+  color: black;
+  border-color: black;
+}
+.row {
+    margin-top: 20px;
+    height: 40px;
+}
+.priority_button {
+    width: 40px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.priority_button:hover {
+    background-color: #fff98a;
+}
+.complete_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.complete_button:hover {
+    background-color: lightgreen;
+    color: black;
+    border-color: black;
+}
+.remove_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.remove_button:hover {
+    background-color: #ff4040;
+    color: black;
+    border-color: black;
+}
+body {
+  background-color: #161616;
+
+}
+hr {
+  width: 90%;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  word-spacing: 6px;
+  color: #A4FFA4;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  text-align: center;
+}
