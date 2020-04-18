@@ -29,6 +29,8 @@ function gpa() {
   grades.push(grade1, grade2, grade3, grade4, grade5, grade6, grade7, grade8)
   hours.push(hour1, hour2, hour3, hour4, hour5, hour6, hour7, hour8)
 
+  
+
   for (let x = 0; x < 16; x++) {
     if (inputs[x].value == null) {
       break;
