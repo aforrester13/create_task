@@ -49,7 +49,7 @@ function convert() {
               second.toLocaleString('en')
             break;
             case 2:
-              second.value = first
+              second.value = first.value
               second.toLocaleString('en')
             break;
             case 3:
@@ -85,7 +85,7 @@ function convert() {
               second.toLocaleString('en')
             break;
             case 3:
-              second.value = first
+              second.value = first.value
               second.toLocaleString('en')
             break;
             case 4:
@@ -121,7 +121,7 @@ function convert() {
               second.toLocaleString('en')
             break;
             case 4:
-              second.value = first
+              second.value = first.value
               second.toLocaleString('en')
             break;
             case 5:
@@ -157,7 +157,7 @@ function convert() {
               second.toLocaleString('en')
             break;
             case 5:
-              second.value = first
+              second.value = first.value
               second.toLocaleString('en')
             break;
             case 6:
@@ -193,7 +193,7 @@ function convert() {
               second.toLocaleString('en')
             break;
             case 6:
-              second.value = first
+              second.value = first.value
               second.toLocaleString('en')
             break;
             case 7:
@@ -229,7 +229,7 @@ function convert() {
               second.toLocaleString('en')
             break;
             case 7:
-              second.value = first
+              second.value = first.value
               second.toLocaleString('en')
             break;
           }
