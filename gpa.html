@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GPA Calculator</title>
+
+    <link rel="stylesheet" href="css/gpa.css"/>
+    <script type="text/javascript" src="js/gpa.js"></script>
+  </head>
+  <body>
+    <h1>GPA Calculator</h1>
+
+    <table align="center">
+      <tr>
+        <td>Classes</td>
+        <td>Grades</td>
+        <td>Credit Hours</td>
+      </tr>
+      <tr>
+        <td>Class 1</td>
+        <td><select class="input" id="grade1">
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.3">D+</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select></td>
+        <td><input class="input" type="text" id="hour1"/></td>
+      </tr>
+      <tr>
+        <td>Class 2</td>
+        <td><select class="input" id="grade2">
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.3">D+</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select></td>
+        <td><input class="input" type="text" id="hour2"/></td>
+      </tr>
+      <tr>
+        <td>Class 3</td>
+        <td><select class="input" id="grade3">
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.3">D+</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select></td>
+        <td><input class="input" type="text" id="hour3"/></td>
+      </tr>
+      <tr>
+        <td>Class 4</td>
+        <td><select class="input" id="grade4">
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.3">D+</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select></td>
+        <td><input class="input" type="text" id="hour4"/></td>
+      </tr>
+      <tr>
+        <td>Class 5</td>
+        <td><select class="input" id="grade5">
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.3">D+</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select></td>
+        <td><input class="input" type="text" id="hour5"/></td>
+      </tr>
+      <tr>
+        <td>Class 6</td>
+        <td><select class="input" id="grade6">
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.3">D+</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select></td>
+        <td><input class="input" type="text" id="hour6"/></td>
+      </tr>
+      <tr>
+        <td>Class 7</td>
+        <td><select class="input" id="grade7">
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.3">D+</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select></td>
+        <td><input class="input" type="text" id="hour7"/></td>
+      </tr>
+      <tr>
+        <td>Class 8</td>
+        <td><select class="input" id="grade8">
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.3">D+</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select></td>
+        <td><input class="input" type="text" id="hour8"/></td>
+      </tr>
+    </table>
+
+    <br/>
+
+    <button onclick="gpa()" id="calculate">Calculate</button>
+
+    <br/>
+    <br/>
+
+    <input type="text" id="final"/>
+
+    <br/>
+    <br/>
+
+    <a href="index.html">Back to Home Page</a>
+  </body>
+</html>
