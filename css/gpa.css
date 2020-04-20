@@ -7,7 +7,7 @@
   margin: 0 auto;
   margin-top: 5px;
   background-color: #FFFFFF;
-  font-family: monospace;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 nav ul {
@@ -15,7 +15,7 @@ nav ul {
   padding: 0;
   margin: 0;
   overflow: auto;
-  font-family: monospace;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 nav li {
@@ -24,30 +24,30 @@ nav li {
   padding: 0 20px;
   float: center;
   font-size: 28px;
-  font-family: monospace;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 nav a {
   text-decoration: none;
   color: #52C5FF;
-  font-family: monospace;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 nav a:hover {
   font-weight: bold;
-  font-family: monospace;
+  font-family: 'Cabin Sketch', cursive;
+  color: black;
 }
 
 #logo {
   float: center;
   background: #D8D8D8;
-  color: #FFFFFF;
+  color: red;
   font-weight: bold;
-  font-family: monospace;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 h1 {
-  font-family: "Lucida Console", Monaco, monospace;
 font-size: 60px;
 letter-spacing: 2px;
 word-spacing: 2px;
@@ -57,11 +57,12 @@ text-decoration: none;
 font-style: normal;
 font-variant: normal;
 text-transform: uppercase;
+font-family: 'Cabin Sketch', cursive;
 }
 
 
 body {
-  background-color: #8DD5FF;
+  background-color: #204060;
   text-align: center;
 }
 
@@ -84,4 +85,13 @@ table {
 #grade1, #grade2, #grade3, #grade4, #grade5, #grade6, #grade7, #grade8 {
   text-align: center;
   border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 30px;
+  font-family: 'Cabin Sketch', cursive;
 }
