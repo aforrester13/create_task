@@ -60,6 +60,21 @@ text-transform: uppercase;
 font-family: 'Cabin Sketch', cursive;
 }
 
+h2 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
+}
+
 
 body {
   background-color: #204060;
@@ -68,23 +83,81 @@ body {
 
 table {
   text-align: center;
-  border-spacing: 10px;
-  border: 3px solid black;
+  border-spacing: 20px;
+  border: 3px solid #52C5FF;
   border-radius: 25px;
+  width: 60%;
+}
+
+thead {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #52C5FF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 #final {
   text-align: center;
 }
 
-#hour1, #hour2, #hour3, #hour4, #hour5, #hour6, #hour7, #hour8 {
+#hour1, #hour2, #hour3, #hour4, #hour5, #hour6, #hour7, #hour8, #nextHour {
   text-align: center;
   border-radius: 5px;
+  padding: 3px 20px;
+  width: 180px;
+  height: 20px;
+  background-color: lightgrey;
+  border-color: #52C5FF;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: sans-serif;
 }
 
-#grade1, #grade2, #grade3, #grade4, #grade5, #grade6, #grade7, #grade8 {
-  text-align: center;
-  border-radius: 10px;
+#grade1, #grade2, #grade3, #grade4, #grade5, #grade6, #grade7, #grade8, #nextGrade {
+  text-align-last: center;
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  background-color: lightgrey;
+  border-color: #52C5FF;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+
+
+#classes, #td1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 button {
