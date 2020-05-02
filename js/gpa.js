@@ -43,15 +43,12 @@ window.onload = function() {
 
 function add() {
   gradeAnswer = prompt("What grade did you have for Class " + String(counter) + "?")
-
   opt = 0;
-
   if (gradeAnswer == null) {
     return;
   }
 
   counter++
-
   Number(counter)
 
   hiddenInput = document.getElementById("hidden");
@@ -174,7 +171,6 @@ function add() {
     gradeAnswer != "D+" || gradeAnswer != "d+"  ||
     gradeAnswer != "D"  || gradeAnswer != "d"   ||
     gradeAnswer != "F"  || gradeAnswer != "f") {
-
       alert("Enter letter grades only");
       prompt("What grade did you have for Class " + String(counter) + "?")
   } else {
@@ -218,38 +214,28 @@ function gpa() {
   grades.unshift(grade1.value, grade2.value, grade3.value, grade4.value, grade5.value, grade6.value, grade7.value, grade8.value)
   hours.unshift(hour1.value, hour2.value, hour3.value, hour4.value, hour5.value, hour6.value, hour7.value, hour8.value)
 
-  console.log(grades)
-  console.log(hours)
-
   if (addBtn.clicked == false) {
     hiddenInput = document.getElementById("hidden");
     hiddenInput.value = 8;
   }
 
-  console.log(hiddenInput.value)
-
   for (let i = 0; i < hiddenInput.value; i++) {
     sum = sum + (grades[i] * hours[i])
-    console.log(sum)
   }
-
-
 
   for (let j = 0; j < hiddenInput.value; j++) {
     hourSum = hourSum + Number(hours[j])
   }
 
-  console.log(hourSum)
-
   final = Number((Math.ceil(sum * 10) / 10)/hourSum)
   final = (Math.floor(final * 100) / 100)
-
-  console.log(final)
 
   lastInput = document.getElementById("final");
 
   grades = [];
   hours = [];
+  sum = 0;
+  hourSum = 0;
 
   if (Number.isNaN(final)) {
     lastInput.value = "";
@@ -274,8 +260,6 @@ function gpa() {
 
 
   reset(hours);
-  sum = 0;
-  hourSum = 0;
 }
 
 function reset(hours) {
