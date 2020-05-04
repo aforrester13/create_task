@@ -61,5 +61,18 @@ text-transform: uppercase;
 }
 
 body {
-   background-color: #204060;
+   background-color: #276cd6;
+ }
+
+ h2 {
+   font-family: 'Cabin Sketch', cursive;
+   font-size: 30px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   color: #FFFFFF;
+   font-weight: 350;
+   text-decoration: none;
+   font-style: normal;
+   font-variant: normal;
+   text-transform: uppercase;
  }
