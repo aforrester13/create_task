@@ -54,6 +54,7 @@ function add() {
   hiddenInput = document.getElementById("hidden");
   hiddenInput.value = counter;
 
+
   table = document.getElementById("table");
   tr = table.insertRow(counter)
 
@@ -214,18 +215,31 @@ function gpa() {
   grades.unshift(grade1.value, grade2.value, grade3.value, grade4.value, grade5.value, grade6.value, grade7.value, grade8.value)
   hours.unshift(hour1.value, hour2.value, hour3.value, hour4.value, hour5.value, hour6.value, hour7.value, hour8.value)
 
-  if (addBtn.clicked == false) {
-    hiddenInput = document.getElementById("hidden");
-    hiddenInput.value = 8;
+  console.log(hiddenInput.value)
+  console.log(grades)
+  console.log(hours)
+
+  if (hiddenInput.value > 8) {
+    for (let i = 0; i < hiddenInput.value; i++) {
+      sum = sum + (grades[i] * hours[i])
+    }
+    console.log(sum)
+
+    for (let j = 0; j < hiddenInput.value; j++) {
+      hourSum = hourSum + Number(hours[j])
+    }
+  } else {
+    for (let i = 0; i < 8; i++) {
+      sum = sum + (grades[i] * hours[i])
+    }
+    console.log(sum)
+
+    for (let j = 0; j < 8; j++) {
+      hourSum = hourSum + Number(hours[j])
+    }
   }
 
-  for (let i = 0; i < hiddenInput.value; i++) {
-    sum = sum + (grades[i] * hours[i])
-  }
 
-  for (let j = 0; j < hiddenInput.value; j++) {
-    hourSum = hourSum + Number(hours[j])
-  }
 
   final = Number((Math.ceil(sum * 10) / 10)/hourSum)
   final = (Math.floor(final * 100) / 100)
