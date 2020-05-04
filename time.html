@@ -5,7 +5,9 @@
 
     <link rel="stylesheet" href="css/time.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script type="text/javascript" src="js/time.js"></script>
+
   </head>
   <body>
     <center>
@@ -28,7 +30,7 @@
     <table align="center">
       <tr>
         <td><input type="text" id="firstInput"/></td>
-        <td align="center">=</td>
+        <td align="center" id="equals">=</td>
         <td><input type="text" id="secondInput"></td>
       </tr>
       <tr>
@@ -41,7 +43,7 @@
               <option value="6">Minutes</option>
               <option value="7">Seconds</option>
             </select></td>
-        <td align="center">--></td>
+        <td align="center"><i class="fas" id="arrow">&#xf061;</i></td>
         <td><select id="secondDropdown">
               <option value="1">Years</option>
               <option value="2">Months</option>
@@ -54,7 +56,7 @@
       </tr>
       <tr>
         <td></td>
-        <td><button onclick="convert()">Convert</button></td>
+        <td><button id="convert">Convert</button></td>
         <td></td>
       </tr>
 

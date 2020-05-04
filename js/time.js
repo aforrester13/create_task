@@ -1,3 +1,7 @@
+window.onload = function() {
+  document.getElementById("convert").onclick = convert;
+}
+
 function convert() {
   var first = document.getElementById("firstInput")
   var second = document.getElementById("secondInput")

@@ -61,6 +61,20 @@ font-variant: normal;
 text-transform: uppercase;
 }
 
+h2 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
+}
 
 body {
   background-color: #204060;
@@ -69,7 +83,54 @@ body {
 
 table {
   text-align: center;
-  border-spacing: 10px;
-  border: 5px solid white;
+  border-spacing: 20px;
+  border: 3px solid #52C5FF;
   border-radius: 25px;
+  width: 60%;
+}
+
+#firstInput, #secondInput {
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px 20px;
+  width: 180px;
+  height: 20px;
+  background-color: lightgrey;
+  border-color: #52C5FF;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  outline-color: red;
+}
+
+#firstDropdown, #secondDropdown {
+  text-align-last: center;
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  background-color: lightgrey;
+  border-color: #52C5FF;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+#arrow {
+  font-size: 30px;
+  color: white;
+}
+
+#equals {
+  font-size: 30px;
+  color: white
 }
