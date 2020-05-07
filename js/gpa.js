@@ -211,19 +211,15 @@ function gpa() {
   let hour8 = document.getElementById("hour8")
   let calculate = document.getElementById("calculate");
   let addBtn = document.getElementById("add");
+  hiddenInput = document.getElementById("hidden")
 
   grades.unshift(grade1.value, grade2.value, grade3.value, grade4.value, grade5.value, grade6.value, grade7.value, grade8.value)
   hours.unshift(hour1.value, hour2.value, hour3.value, hour4.value, hour5.value, hour6.value, hour7.value, hour8.value)
-
-  console.log(hiddenInput.value)
-  console.log(grades)
-  console.log(hours)
 
   if (hiddenInput.value > 8) {
     for (let i = 0; i < hiddenInput.value; i++) {
       sum = sum + (grades[i] * hours[i])
     }
-    console.log(sum)
 
     for (let j = 0; j < hiddenInput.value; j++) {
       hourSum = hourSum + Number(hours[j])
@@ -232,14 +228,13 @@ function gpa() {
     for (let i = 0; i < 8; i++) {
       sum = sum + (grades[i] * hours[i])
     }
-    console.log(sum)
 
     for (let j = 0; j < 8; j++) {
       hourSum = hourSum + Number(hours[j])
     }
   }
-
-
+console.log(sum)
+console.log(hourSum)
 
   final = Number((Math.ceil(sum * 10) / 10)/hourSum)
   final = (Math.floor(final * 100) / 100)
