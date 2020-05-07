@@ -189,7 +189,6 @@ button {
 
 button:hover {
   border-color: red;
-  background-color: lightgrey;
   font-weight: 400;
   box-shadow: 0 8px red;
 }

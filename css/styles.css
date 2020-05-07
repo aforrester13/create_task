@@ -7,7 +7,7 @@
   margin: 0 auto;
   margin-top: 5px;
   background-color: #FFFFFF;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch';
 }
 
 nav ul {
@@ -15,7 +15,7 @@ nav ul {
   padding: 0;
   margin: 0;
   overflow: auto;
-  ffont-family: 'Cabin Sketch', cursive;
+  ffont-family: 'Cabin Sketch';
 }
 
 nav li {
@@ -24,18 +24,18 @@ nav li {
   padding: 0 20px;
   float: center;
   font-size: 28px;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch';
 }
 
 nav a {
   text-decoration: none;
   color: #52C5FF;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch';
 }
 
 nav a:hover {
   font-weight: bold;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch';
   color: black;
 }
 
@@ -44,11 +44,11 @@ nav a:hover {
   background: #D8D8D8;
   color: red;
   font-weight: bold;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch';
 }
 
 h1 {
-font-family: 'Cabin Sketch', cursive;
+font-family: 'Cabin Sketch';
 font-size: 60px;
 letter-spacing: 2px;
 word-spacing: 2px;
@@ -75,4 +75,80 @@ body {
    font-style: normal;
    font-variant: normal;
    text-transform: uppercase;
+ }
+
+ h3 {
+   font-family: 'Cabin Sketch', cursive;
+   font-size: 18px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   color: #FFFFFF;
+   font-weight: 350;
+   text-decoration: none;
+   font-style: normal;
+   font-variant: normal;
+   text-transform: uppercase;
+   padding-bottom: 5px;
+ }
+
+ table {
+   text-align: center;
+   width: 80%;
+   padding: 10px;
+ }
+
+ table td {
+   border-spacing: 20px;
+   border: 3px solid lightgreen;
+   border-radius: 25px;
+ }
+
+ td {
+    overflow: hidden;
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-top: 50px;
+ }
+ p {
+   font-size: 16px;
+   font-family: 'Cabin Sketch';
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ #tryIt {
+   padding: 5px;
+   margin: 5px;
+   border-radius: 10px;
+   border: 3px solid black;
+   font-size: 30px;
+   font-family: 'Cabin Sketch', cursive;
+   cursor: pointer;
+   box-shadow: 0 8px black;
+   outline: none;
+ }
+
+ #tryIt:hover {
+   border-color: #52C5FF;
+   font-weight: 400;
+   box-shadow: 0 8px #52C5FF;
+ }
+
+ #tryIt:active {
+   background-color: lightgrey;
+   border-color: #52C5FF;
+   box-shadow: 0 5px #52C5FF;
+   transform: translateY(4px);
+ }
+
+ #purpose {
+   padding: 20px;
+   font-style: italic;
+   font-family: monospace;
+ }
+
+ #space {
+   border: 1px solid #276cd6;
  }

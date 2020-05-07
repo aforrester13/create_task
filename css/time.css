@@ -134,3 +134,28 @@ table {
   font-size: 30px;
   color: white
 }
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 30px;
+  font-family: 'Cabin Sketch', cursive;
+  cursor: pointer;
+  box-shadow: 0 8px black;
+  outline: none;
+}
+
+button:hover {
+  border-color: red;
+  font-weight: 400;
+  box-shadow: 0 8px red;
+}
+
+button:active {
+  background-color: lightgrey;
+  border-color: red;
+  box-shadow: 0 5px red;
+  transform: translateY(4px);
+}
