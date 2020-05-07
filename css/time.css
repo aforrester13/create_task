@@ -84,7 +84,7 @@ body {
 table {
   text-align: center;
   border-spacing: 20px;
-  border: 3px solid #52C5FF;
+  border: 3px solid lightgreen;
   border-radius: 25px;
   width: 60%;
 }
@@ -127,12 +127,12 @@ table {
 
 #arrow {
   font-size: 30px;
-  color: white;
+  color: lightgreen;
 }
 
 #equals {
   font-size: 30px;
-  color: white
+  color: lightgreen
 }
 
 button {
@@ -148,14 +148,14 @@ button {
 }
 
 button:hover {
-  border-color: red;
+  border-color: green;
   font-weight: 400;
-  box-shadow: 0 8px red;
+  box-shadow: 0 8px green;
 }
 
 button:active {
   background-color: lightgrey;
-  border-color: red;
-  box-shadow: 0 5px red;
+  border-color: green;
+  box-shadow: 0 5px green;
   transform: translateY(4px);
 }

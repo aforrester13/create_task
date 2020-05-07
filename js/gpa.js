@@ -42,6 +42,11 @@ window.onload = function() {
 }
 
 function add() {
+  if (document.getElementById("final").style.backgroundColor !== "") {
+    alert("Refresh the Page")
+    return;
+  }
+
   gradeAnswer = prompt("What grade did you have for Class " + String(counter) + "?")
   opt = 0;
   if (gradeAnswer == null) {
