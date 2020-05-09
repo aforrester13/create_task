@@ -2,13 +2,6 @@
   margin: 0;
   padding: 0;
 }
-#header {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 5px;
-  background-color: #FFFFFF;
-  font-family: 'Cabin Sketch', cursive;
-}
 
 nav ul {
   list-style: none;
@@ -37,14 +30,6 @@ nav a:hover {
   font-weight: bold;
   font-family: 'Cabin Sketch', cursive;
   color: black;
-}
-
-#logo {
-  float: center;
-  background: #D8D8D8;
-  color: red;
-  font-weight: bold;
-  font-family: 'Cabin Sketch', cursive;
 }
 
 h1 {
@@ -101,6 +86,60 @@ thead {
   font-style: normal;
   font-variant: normal;
   text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 30px;
+  font-family: 'Cabin Sketch', cursive;
+  cursor: pointer;
+  box-shadow: 0 8px black;
+  outline: none;
+}
+
+button:hover {
+  border-color: green;
+  font-weight: 400;
+  box-shadow: 0 8px green;
+}
+
+button:active {
+  background-color: lightgrey;
+  border-color: green;
+  box-shadow: 0 5px green;
+  transform: translateY(4px);
+}
+
+ul {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+ul li {
+  margin-left: 200px;
+  margin-right: 200px;
+  list-style-type: none;
+  spacing: 10px;
+  font-family: sans-serif;
+}
+
+#logo {
+  float: center;
+  background: #D8D8D8;
+  color: red;
+  font-weight: bold;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#header {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5px;
+  background-color: #FFFFFF;
   font-family: 'Cabin Sketch', cursive;
 }
 
@@ -173,42 +212,4 @@ thead {
   font-variant: normal;
   text-transform: uppercase;
   font-family: 'Cabin Sketch', cursive;
-}
-
-button {
-  padding: 10px;
-  margin: 5px;
-  border-radius: 10px;
-  border: 3px solid black;
-  font-size: 30px;
-  font-family: 'Cabin Sketch', cursive;
-  cursor: pointer;
-  box-shadow: 0 8px black;
-  outline: none;
-}
-
-button:hover {
-  border-color: green;
-  font-weight: 400;
-  box-shadow: 0 8px green;
-}
-
-button:active {
-  background-color: lightgrey;
-  border-color: green;
-  box-shadow: 0 5px green;
-  transform: translateY(4px);
-}
-
-ul {
-  text-align: center;
-  font-family: sans-serif;
-}
-
-ul li {
-  margin-left: 200px;
-  margin-right: 200px;
-  list-style-type: none;
-  spacing: 10px;
-  font-family: sans-serif;
 }
