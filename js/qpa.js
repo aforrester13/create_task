@@ -2,14 +2,13 @@
 let counter = 8;
 let grades = [];
 let hours = []
-let newGrades = [];
-let newHours = [];
 let sum = 0;
 let hourSum = 0;
 // Functions
 
 window.onload = function() {
   document.getElementById("calculate").onclick = qpa;
+}
 
 function qpa() {
   let g1 = document.getElementById("g1")
@@ -37,7 +36,7 @@ function qpa() {
     sum = sum + (grades[i] * hours[i])
   }
   for (var j = 0; j < 8; j++) {
-    hourSum= hourSum + hours[j]
+    hourSum= hourSum + Number(hours[j])
   }
 
   final= Number((Math.ceil(sum * 10) / 10) /hourSum);
@@ -62,21 +61,13 @@ function qpa() {
     } else if (lastInput.value >= 80 && lastInput.value < 87) {
       lastInput.style.backgroundColor = "#E69900"
     } else if (lastInput.value >= 73 && lastInput.value < 80) {
-      lastInput.style.backgroundColor = "FF8566"
+      lastInput.style.backgroundColor = "#FF8566"
     } else if (lastInput.value >= 0 && lastInput.value < 73) {
-      lastInput.style.backgroundColor = "FF0000"
+      lastInput.style.backgroundColor = "#FF0000"
     } else {
-      lastInput.style.backgroundColor
+      lastInput.style.backgroundColor = "#000000"
     }
 
   }
 
-
-  reset(hours);
-}
-
-function reset(hours) {
-  hours.forEach(function(hour) {
-    hour.value = "";
-  })
 }

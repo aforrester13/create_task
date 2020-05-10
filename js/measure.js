@@ -50,7 +50,7 @@ function convert() {
 
       break;
       case 2:
-          switch (Number(sD.value)) {
+      switch (Number(sD.value)) {
             case 1:
               sI.value = fI.value * 0.3048
 
