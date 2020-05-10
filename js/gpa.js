@@ -47,17 +47,17 @@ function add() {
     return;
   }
 
-  gradeAnswer = prompt("What grade did you have for Class " + String(counter) + "?")
-  opt = 0;
-  if (gradeAnswer == null) {
-    return;
-  }
-
   counter++
   Number(counter)
 
   hiddenInput = document.getElementById("hidden");
   hiddenInput.value = counter;
+
+  gradeAnswer = prompt("What grade did you have for Class " + String(counter) + "?")
+  opt = 0;
+  if (gradeAnswer == null) {
+    return
+  }
 
 
   table = document.getElementById("table");
@@ -183,7 +183,6 @@ function add() {
     alert("Enter letter grades only");
     prompt("What grade did you have for Class " + String(counter) + "?")
   }
-
   hourAnswer = prompt("How many credit hours do you have in Class " + String(counter) + "?")
   input.value = hourAnswer;
 
