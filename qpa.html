@@ -1,26 +1,112 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<title>Calculators</title>
-		<link rel="stylesheet" href="css/styles.css">
-		<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<center>
-			<h1>Calculators</h1>
+<html>
+  <head>
+    <title>GPA Calculator</title>
 
+    <link rel="stylesheet" href="css/qpa.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/qpa.js"></script>
+  </head>
+  <body>
+    <center>
+			<h1>Calculators</h1>
 		</center>
 			<div id="header">
     		<nav>
       		<center>
-      			<li> <a href= "index.html">Home</a></li>
-  					<li> <a href="gpa.html">GPA Calculator</a></li>
+      			<li> <a href="index.html">Home</a></li>
+  					<li> <a href="gpa.html"> GPA Calculator</a></li>
       			<li id="logo">QPA Calculator</li>
       			<li> <a href="measure.html">Measurement Converter</a></li>
 						<li> <a href="time.html">Time Converter</a></li>
       		</center>
   	  	</nav>
   		</div>
-	</body>
+			<center>
+
+    <h2>GPA Calculator</h2>
+
+    <ul>Quick Tips:
+      <li>Add classes before clicking the calculate button. Adding classes after clicking the
+      calculate button will not properly calculate your grade point average. If you wish to add more classes,
+      refresh the page and then add classes BEFORE pressing the calculate button.</li>
+      <br/>
+      <li>If you add a class, input the correct value for the grade and number of hours. You cannot change the
+        value of the grade or number of hours after it is inputted without refreshing the page.</li>
+      <br/>
+      <li><strong>Good Luck!</strong></li>
+    </ul>
+
+      <br/>
+    <table align="center" id="table">
+      <thead>
+        <tr>
+          <td>Classes</td>
+          <td>Grades</td>
+          <td>Credit Hours</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="classes">Class 1</td>
+          <td><input type = "text" id ="g1"/></td>
+          <td><input type = "text" id="h1"/></td>
+        </tr>
+        <tr>
+          <td id="classes">Class 2</td>
+          <td><input type = "text" id ="g2"/></td>
+          <td><input type = "text" id="h2"/></td>
+        </tr>
+        <tr>
+          <td id="classes">Class 3</td>
+          <td><input type = "text" id ="g3"/></td>
+          <td><input type = "text" id="h3"/></td>
+        </tr>
+        <tr>
+          <td id="classes">Class 4</td>
+          <td><input type = "text" id ="g4"/></td>
+          <td><input type = "text" id="h4"/></td>>
+        </tr>
+        <tr>
+          <td id="classes">Class 5</td>
+          <td><input type = "text" id ="g5"/></td>
+          <td><input type = "text" id="h5"/></td>
+        </tr>
+        <tr>
+          <td id="classes">Class 6</td>
+          <td><input type = "text" id ="g6"/></td>
+          <td><input type = "text" id="h6"/></td>
+        </tr>
+        <tr>
+          <td id="classes">Class 7</td>
+          <td><input type = "text" id ="g7"/></td>
+          <td><input type = "text" id="h7"/></td>
+        </tr>
+        <tr>
+          <td id="classes">Class 8</td>
+          <td><input type = "text" id ="g8"/></td>
+          <td><input type = "text" id="h8"/></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br/>
+
+    <button id="add">Add Class</button>
+
+    <br/>
+    <br/>
+
+    <button id="calculate">Calculate</button>
+
+
+
+    <br/>
+    <br/>
+
+    <input type="text" id="final"/>
+    <input type="hidden" id="hidden" value="8"/>
+    <br/>
+    <br/>
+  </body>
 </html>

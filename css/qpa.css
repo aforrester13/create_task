@@ -48,7 +48,6 @@ nav a:hover {
 }
 
 h1 {
-font-family: 'Cabin Sketch', cursive;
 font-size: 60px;
 letter-spacing: 2px;
 word-spacing: 2px;
@@ -58,8 +57,139 @@ text-decoration: none;
 font-style: normal;
 font-variant: normal;
 text-transform: uppercase;
+font-family: 'Cabin Sketch', cursive;
 }
 
+h2 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+
 body {
-   background-color: #276cd6;
- }
+  background-color: #276cd6;
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  border-spacing: 20px;
+  border: 3px solid lightgreen;
+  border-radius: 25px;
+  width: 60%;
+}
+
+thead {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: lightgreen;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#final {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+  border: 3px solid black;
+  font-size: 90px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#h1, #h2, #h3, #h4, #h5, #h6, #h7, #h8, #g1, #g2, #g3, #g4, #g5, #g6, #g7, #g8, #nextHour, #nextGrade {
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px 20px;
+  width: 180px;
+  height: 20px;
+  background-color: lightgrey;
+  border-color: #52C5FF;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  outline-color: red;
+}
+
+#classes, #td1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 30px;
+  font-family: 'Cabin Sketch', cursive;
+  cursor: pointer;
+  box-shadow: 0 8px black;
+  outline: none;
+}
+
+button:hover {
+  border-color: green;
+  font-weight: 400;
+  box-shadow: 0 8px green;
+}
+
+button:active {
+  background-color: lightgrey;
+  border-color: green;
+  box-shadow: 0 5px green;
+  transform: translateY(4px);
+}
+
+ul {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+ul li {
+  margin-left: 200px;
+  margin-right: 200px;
+  list-style-type: none;
+  spacing: 10px;
+  font-family: sans-serif;
+}
