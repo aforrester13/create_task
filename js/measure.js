@@ -1,3 +1,4 @@
+///// All code in this section done by Kevin Suarez
 window.onload = function() {
   document.getElementById("convert").onclick = convert;
 }
