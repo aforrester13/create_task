@@ -1,3 +1,5 @@
+// All code in this section was done by Aidan Forrester
+
 window.onload = function() {
   document.getElementById("convert").onclick = convert;
 }
@@ -233,7 +235,7 @@ function convert() {
             break;
             case 6:
               second.value = first.value / 60
-              
+
             break;
             case 7:
               second.value = first.value

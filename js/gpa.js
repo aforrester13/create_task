@@ -1,3 +1,5 @@
+// All code in this section was done by Aidan Forrester
+
 // Variables
 let counter = 8;
 let grades = [];
